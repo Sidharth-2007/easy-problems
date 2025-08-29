@@ -1,3 +1,4 @@
+//Check if a character is an alphabet or not.
 #include <iostream>
 using namespace std;
 
