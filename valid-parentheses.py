@@ -10,6 +10,8 @@ class Solution(object):
     def isValid(self, s):
         arr=[]
         d={"{":"}","[":"]","(":")",}
+        if(len(s)==1):
+            return False
         for i in range(len(s)):
             if (s[i] in "{(["):
                 arr.append(s[i])
@@ -22,6 +24,10 @@ class Solution(object):
                     return False
         if not arr:
                     return True
+        else:
+            return False
 
+
+        
 
 
